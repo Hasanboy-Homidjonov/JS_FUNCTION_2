@@ -6,7 +6,7 @@
 
 // const printArray = int => {
 //     let array = [];
-//     for (i = 1; i <= int; i++){
+//     for (let i = 1; i <= int; i++){
 //         array.push(i);
 //     }
 //     return array;
@@ -279,7 +279,7 @@
 // beriladi. Agar ushbu butun son 5ga bo’linsa, funksiya true
 // qaytarsin, aks holda false.
 
-// const bolinsin5 = a => a % 5 == 0;
+// const bolinsin5 = a => a % 5 === 0;
 // console.log(bolinsin5(10));
 // console.log(bolinsin5(-55));
 // console.log(bolinsin5(18));
@@ -292,7 +292,7 @@
 // qaytarsin, aks holda false.
 
 
-// const boolinsi100 = son => son % 100 == 0;
+// const boolinsi100 = son => son % 100 === 0;
 // console.log(boolinsi100(100));
 // console.log(boolinsi100(1));
 // console.log(boolinsi100(1000));
